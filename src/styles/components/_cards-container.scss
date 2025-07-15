@@ -1,0 +1,25 @@
+.cards-container {
+  display: grid;
+  gap: 46px 48px;
+  flex-wrap: wrap;
+  padding: 50px 40px; // top-bottom left-right
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  overflow: visible;
+
+  align-items: center;
+  justify-items: center;
+
+
+   @media (min-width: 488px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+    @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(4, 1fr); 
+  }
+}

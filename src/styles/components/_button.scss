@@ -1,0 +1,19 @@
+.card__buy-button {
+  text-align: center;
+  padding: 10px 0;
+  height: 40px;
+  width: 100%;
+  background: var(--button-color);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.card__buy-button:hover {
+  background: #fff;
+  border-color: var(--button-color);
+  color: var(--button-color);
+}

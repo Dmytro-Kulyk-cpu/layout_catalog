@@ -1,3 +1,14 @@
-body {
-  margin: 0;
-}
+@import "abstracts/variables";
+@import "base/reset";
+@import "layout/header";
+@import "components/button";
+@import "components/card";
+@import "components/image-card";
+@import "components/price";
+@import "components/stars-reviews";
+@import "components/text";
+@import "pages/products";
+@import "./components/cards-container";
+
+
+
