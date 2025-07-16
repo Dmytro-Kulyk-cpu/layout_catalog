@@ -1,7 +1,6 @@
 :root {
   box-sizing: border-box;
-  --main-color: #00acdc;
-}
+ }
 
 body,
 nav {
@@ -51,7 +50,7 @@ nav {
     display: flex;
     align-items: center;
     line-height: 60px;
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto,sans-serif;
     font-size: 12px;
     font-weight: 500;
     white-space: nowrap;
