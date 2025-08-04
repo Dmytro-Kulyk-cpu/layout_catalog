@@ -1,15 +1,17 @@
 .card__buy-button {
-  text-align: center;
-  padding: 10px 0;
-  height: 40px;
+  display: inline-block;
   width: 100%;
+  padding: 12px 0;
   background: var(--button-color);
   color: #fff;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   border-radius: 5px;
   border: 1px solid transparent;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 .card__buy-button:hover {

@@ -27,7 +27,7 @@
   background-image: url(../images/star-active.svg);
 }
 
-.stars__star:last-child {
+.stars__star:nth-last-child(1) {
   margin-right: 0;
 }
 
